@@ -1,0 +1,146 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app-title {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Menu.css */
+
+.menu-card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.menu-container {
+  text-align: center;
+}
+
+.menu-title {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.start-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.start-button:hover {
+  background-color: #0056b3;
+}
+
+/* Quiz.css */
+
+.quiz {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.option {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ef423b;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  color: white;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.finish-btn,
+.next-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+
+.finish-btn:hover,
+.next-btn:hover {
+  background-color: #0056b3;
+}
+
+/*   */
+
+.finish-card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
