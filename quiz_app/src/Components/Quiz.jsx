@@ -5,7 +5,7 @@ import { Questions } from './Helper/Question';
 const Quiz = () => {
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState('');
-  const { gameState, setGameState, score, setScore } = useContext(quizContext);
+  const {  setGameState, score, setScore } = useContext(quizContext);
 
   const select = (option) => {
     setSelected(option);
